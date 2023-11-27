@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <meta name="generator" content="Astro v2.10.15">
+    <meta name="generator" content="Astro v2.9.7">
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <title>Bahnfinder - Dein zuverlässiger Begleiter im ÖPNV.</title>
@@ -26,7 +26,7 @@
 
 
 
-
+<meta property="og:image:height">
 <meta property="og:image:alt" content="Astroship Homepage Screenshot">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -38,7 +38,7 @@
 <meta name="twitter:creator" content="@surjithctly">
 
 
-  <link rel="stylesheet" href="/_astro/404.8fea074e.css" /></head>
+  <link rel="stylesheet" href="/_astro/404.3c0fbed5.css" /></head>
   <body>
     <div class="max-w-screen-xl mx-auto px-5">
   
@@ -50,7 +50,7 @@
         <div class="block lg:hidden">
           <button id="astronav-menu" aria-label="Toggle Menu">
   
-    <svg fill="currentColor" class="w-4 h-4 text-gray-800" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <svg fill="currentColor" class="w-4 h-4 text-gray-800" width="24" height="24" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <title>Toggle Menu</title>
       <path class="astronav-close-icon astronav-toggle hidden" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.829 4.828 4.828z"></path>
       <path class="astronav-open-icon astronav-toggle" fill-rule="evenodd" d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"></path>
@@ -129,28 +129,7 @@
 
 <script>(function(){const closeOnClick = false;
 
-["DOMContentLoaded", "astro:after-swap"].forEach((event) => {
-  document.addEventListener(event, addListeners);
-});
-
-// Function to clone and replace elements
-function cloneAndReplace(element) {
-  const clone = element.cloneNode(true);
-  element.parentNode.replaceChild(clone, element);
-}
-
-function addListeners() {
-  // Clean up existing listeners
-  const oldMenuButton = document.getElementById("astronav-menu");
-  if (oldMenuButton) {
-    cloneAndReplace(oldMenuButton);
-  }
-
-  const oldDropdownMenus = document.querySelectorAll(".astronav-dropdown");
-  oldDropdownMenus.forEach((menu) => {
-    cloneAndReplace(menu);
-  });
-
+document.addEventListener("DOMContentLoaded", () => {
   // Mobile nav toggle
   const menuButton = document.getElementById("astronav-menu");
   menuButton && menuButton.addEventListener("click", toggleMobileNav);
@@ -174,6 +153,7 @@ function addListeners() {
       submenuButton &&
         submenuButton.addEventListener("click", (event) => {
           event.stopImmediatePropagation();
+          console.log("click");
           toggleSubmenuDropdown(event, submenu);
         });
     });
@@ -185,7 +165,7 @@ function addListeners() {
   if (closeOnClick) {
     handleCloseOnClick();
   }
-}
+});
 
 function toggleMobileNav() {
   [...document.querySelectorAll(".astronav-toggle")].forEach((el) => {
@@ -229,7 +209,6 @@ function closeAllDropdowns(event) {
   ].some((button) => button.contains(event.target));
   if (!isButtonInsideDropdown) {
     dropdownMenus.forEach((d) => {
-      // console.log("I ran", d);
       // if (!d.contains(event.target)) {
       d.classList.remove("open");
       d.removeAttribute("open");
@@ -262,7 +241,7 @@ function toggleMenu(menu) {
 }
 
 function closeMenu(menu) {
-  // console.log("closing", menu);
+  console.log("closing", menu);
   menu.classList.remove("open");
   menu.removeAttribute("open");
   menu.setAttribute("aria-expanded", "false");
@@ -289,7 +268,7 @@ function handleCloseOnClick() {
         });
       });
     });
-}
+  }
 })();</script>
     <div>
       <div class="hidden lg:flex items-center gap-4">
