@@ -1,6 +1,6 @@
 ---
 draft: false
-name: "emilian."
+name: "emilian"
 title: "Webentwicklung und Design"
 avatar: {
     src: "src/assets/profile/emilian-full.svg",
