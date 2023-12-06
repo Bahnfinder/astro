@@ -1,6 +1,10 @@
 # Bahnfinder
 
-Dein zuverlässiger Begleiter im ÖPNV
+Website zu der Bahnfinder App für iOS.
+
+![preview](/public/opengraph.jpg)
+
+---
 
 ### Pagespeed Score
 
