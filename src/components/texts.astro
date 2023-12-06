@@ -1,0 +1,33 @@
+---
+// @ts-ignore
+
+// STILL
+// IN
+// TEST
+
+import { Icon } from "astro-icon";
+
+const texts = [
+  {
+    bf_name: "Bahnfinder",
+    bf_capital: "BAHNFINDER",
+    bf_icon: "/src/assets/icons/tram.svg",
+    bf_desc: "Dein zuverlässiger Begleiter im ÖPNV."
+  },
+];
+---
+
+  {
+    texts.map((item) => (
+      
+        <div>
+          <Icon class="text-white" name={item.bf_icon} />
+        </div>
+
+        <div>
+          <h3>{item.bf_capital}</h3>{" "}
+          <p>{item.bf_desc}</p>
+        </div>
+    
+    ))
+  }
