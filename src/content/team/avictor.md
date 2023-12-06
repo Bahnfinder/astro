@@ -3,7 +3,7 @@ draft: false
 name: "victor"
 title: "Hauptentwicklung und Eigentum"
 avatar: {
-    src: "src/assets/profile/victor-full.svg",
+    src: "/images/profile/victor-full.svg",
     alt: "Victor Lobe"
 }
 publishDate: "2023-12-03 22:00"

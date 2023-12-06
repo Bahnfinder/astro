@@ -4,40 +4,40 @@ import { Icon } from "astro-icon";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Abfahrten.",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      "Mit nur wenigen Klicks kannst Du die aktuellen Abfahrtszeiten an Deiner Haltestelle . Und keine Sorge, wir verraten dir auch, wenn der Bus mal wieder im Stau steckt oder die Bahn verspätet ist.",
+    icon: "features/abfahrten",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Verbindungen.",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      "Unsere benutzerfreundliche Oberfläche macht es zum Kinderspiel, die perfekte Verbindung in der App zu finden. Damit kommst du mühelos von A nach B – und das sogar im Sress!",
+    icon: "features/verbindungen",
   },
   {
-    title: "On-Demand Components",
+    title: "Fahrtverlauf.",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
+      "Zeitreise leicht gemacht. Den Verlauf einer Linie (egal, ob Bus, Bahn, S-Bahn, U-Bahn oder Zug) samt Ankunftszeit zu checken, wird mit Bahnfinder zum absoluten Vergnügen.",
+    icon: "features/fahrtverlauf",
   },
   {
-    title: "Broad Integration",
+    title: "Live Karte.",
     description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
+      "Bahnfinder ist so schön, dass Du beim Blick darauf in eine wunderschöne Trance versetzt wirst. Aber keine Panik – wir haben eine Live-Karte eingebaut, die dir hilft, die Orientierung nicht komplett zu verlieren.",
+    icon: "features/karte",
   },
   {
-    title: "SEO Enabled",
+    title: "Intuitive Suche.",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
+      "Wer suchet, der findet – und wer draufklickt, verbindet! Unsere intuitive Suche macht es Dir leicht, egal wonach du suchst. Einfach, schnell und effizient.",
+    icon: "features/suche",
   },
   {
-    title: "Community",
+    title: "Benutzerfreundlich.",
     description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+      "Nicht nur das iOS-native Design lässt dich nicht mehr aus dem Staunen, sondern auch die Benutzerfreundlichkeit der App. Sie ist so einfach und zugleich powervoll wie nur möglich gestaltet.",
+    icon: "features/benutzerfreundlich",
   },
 ];
 ---
@@ -47,7 +47,7 @@ const features = [
     Alles, was Du auf Deinem Weg benötigst.
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Bahnfinder lässt Dich mit seinen verschiedenen hilfreichen Funkionen nie im Stich. So hilft er Dir beim Finden Deiner besten Verbindung oder von nächsten Abfahrten an der Haltestelle.
+    Bahnfinder begleitet Dich mit seinen smarten Funktionen auf Schritt und Tritt. Ob die optimale Verbindungssuche oder die Anzeige der nächsten Abfahrten an Deiner Haltestelle – mit Bahnfinder bist Du immer einen Schritt voraus.
   </p>
 </div>
 
@@ -56,7 +56,7 @@ const features = [
     features.map((item) => (
       <div class="flex gap-4 items-start">
         <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
-          <Icon class="text-white" name={item.icon} />
+          <Icon class="text-white colour-white fill-white" name={item.icon} />
         </div>
         <div>
           <h3 class="font-semibold text-lg">{item.title}</h3>{" "}

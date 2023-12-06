@@ -1,0 +1,1 @@
+Besonder interessant wird diese Funktion, da Du ebenfalls sehen kannst, ob Dein Fahrtzeug pünktlich, zu spät oder zu früh kommt, oder ob es sogar ganz ausfällt. 

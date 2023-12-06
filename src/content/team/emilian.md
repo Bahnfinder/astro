@@ -3,7 +3,7 @@ draft: false
 name: "emilian"
 title: "Webentwicklung und Design"
 avatar: {
-    src: "src/assets/profile/emilian-full.svg",
+    src: "/images/profile/emilian-full.svg",
     alt: "Emilian Schiller"
 }
 publishDate: "2023-12-03 22:00"
