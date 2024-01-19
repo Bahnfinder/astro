@@ -1,8 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 import { Picture } from "@astrojs/image/components";
-import { Image } from "astro:assets"
-import blog300 from "assets/300-design.png"
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
@@ -23,7 +21,7 @@ publishedBlogEntries.sort(function (a, b) {
     <Sectionhead>
       <Fragment slot="title">Letze Updates</Fragment>
       <Fragment slot="desc">
-        Bahnfinder wird dank ständigen Updates immer besser. Hier findest du die neuesten Features, Verbesserungen und andere Neuigkeiten.
+        Bahnfinder wird dank ständigen Updates immer besser. Hier findest du die neuesten Features und Verbesserungen.
       </Fragment>
     </Sectionhead>
     <main class="mt-16">
