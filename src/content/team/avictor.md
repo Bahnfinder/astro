@@ -1,6 +1,6 @@
 ---
 draft: false
-name: "victor"
+name: "Victor"
 title: "Hauptentwicklung und Eigentum"
 avatar: {
     src: "/images/profile/victor-full.svg",
