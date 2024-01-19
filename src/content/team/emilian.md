@@ -1,7 +1,7 @@
 ---
 draft: false
 name: "emilian"
-title: "Webentwicklung und Design"
+title: "Webentwicklung, Design (App Store Vorschaubilder) & Mitentwicklung einiger Funktionen"
 avatar: {
     src: "/images/profile/emilian-full.svg",
     alt: "Emilian Schiller"
