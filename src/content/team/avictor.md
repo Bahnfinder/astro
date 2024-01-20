@@ -1,7 +1,7 @@
 ---
 draft: false
 name: "Victor"
-title: "Eigentum und Entwicklung"
+title: "Eigentum und App-Entwicklung"
 avatar: {
     src: "/images/profile/victor-full.svg",
     alt: "Victor Lobe"
