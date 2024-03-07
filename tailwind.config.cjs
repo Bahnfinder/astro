@@ -7,6 +7,10 @@ module.exports = {
       fontFamily: {
         sans: ["Inter Variable", "Inter", ...defaultTheme.fontFamily.sans],
       },
+      blockquote: {
+        fontWeight: '500',
+        fontStyle: 'none',
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
