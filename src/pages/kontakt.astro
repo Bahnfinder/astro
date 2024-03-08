@@ -6,25 +6,37 @@ import Layout from "@layouts/Layout.astro";
 import { Icon } from "astro-icon";
 ---
 
-<Layout title="Contact">
+<Layout title="Kontakt">
   <Container>
     <Sectionhead>
       <Fragment slot="title">Kontakt</Fragment>
-      <Fragment slot="desc">Wir helfen dir gern.</Fragment>
+      <Fragment slot="desc">Kontaktiere den Entwickler.</Fragment>
     </Sectionhead>
-
+    
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
-        <h2 class="font-medium text-2xl text-gray-800">Bahnfinder-Team kontaktieren.</h2>
+        <h2 class="font-medium text-2xl text-gray-800">Den Entwickler kontaktieren.</h2>
         <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Du hast Ideen zur Verbesserung, einen Fehler gefunden oder Lust auf einen Talk mit uns?
+          Wenn du einen Fehler gefunden hast, einen Verbesserungsvorschlag machen möchtest oder einfach nur Hallo sagen willst, kannst du hier Kontakt mit dem Entwickler aufnehmen.
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
             <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
               href="mailto:bahnfinder@gmail.com"
-              >support@bahnfinder.app</a
+              >bahnfinder@gmail.com</a
               >
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-medium text-2xl text-gray-800">Kontakt über WhatsApp.</h2>
+        <p class="text-lg leading-relaxed text-slate-500 mt-3">
+          WhatsApp:
+        </p>
+        <div class="mt-5">
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <Icon class="text-gray-400 w-4 h-4" name="uil:whatsapp" />
+            <a href="https://api.whatsapp.com/send?phone=491747488746" target="_blank">+49 174 7488746</a>
           </div>
         </div>
       </div>

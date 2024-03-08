@@ -19,7 +19,7 @@ const { title } = Astro.props;
 
 const makeTitle = title
   ? title + " | " + "Bahnfinder"
-  : "Bahnfinder - Dein zuverlässiger Begleiter im ÖPNV.";
+  : "Bahnfinder - Die schnellste ÖPNV-App.";
 ---
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Bahnfinder - Dein zuverlässiger Begleiter im ÖPNV."
+      description="Bahnfinder - Die schnellste ÖPNV-App."
       canonical={canonicalURL}
       twitter={{
         creator: "@",
@@ -44,7 +44,7 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Bahnfinder - Dein zuverlässiger Begleiter im ÖPNV.`,
+          title: `Bahnfinder - Die schnellste ÖPNV-App.`,
           image: resolvedImageWithDomain,
         },
         image: {
