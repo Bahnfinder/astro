@@ -7,6 +7,6 @@ avatar: {
     alt: "Victor Lobe"
 }
 publishDate: "2023-12-03 22:00"
-mail_link: "mailto:victor@bahnfinder.app"
-mail: "victor@bahnfinder.app"
+mail_link: "mailto:bahnfinder@gmail.com"
+mail: "bahnfinder@gmail.com"
 ---
